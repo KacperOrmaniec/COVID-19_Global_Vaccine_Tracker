@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/Covid-19GlobalVaccineTracker_16799
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 1000,
-    width: 1200,
+    height: 1600,
+    width: 1120,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
